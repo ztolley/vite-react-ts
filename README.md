@@ -21,8 +21,13 @@ This repository acts as a template to bootstrap a new React project using Vite a
 
 ## Getting Started
 
+Before creating a project you just install NodeJS. It is recommended to use the latest LTS version.
+
 ```
-npx degit ztolley/vite-ts#main my-project
+npx degit ztolley/vite-react-ts#main my-project
+cd my-project
+npm install
+npm run dev
 ```
 
 ## Folder Structure

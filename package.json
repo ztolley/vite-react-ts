@@ -1,8 +1,27 @@
 {
-  "name": "ztolley-vite-react-ts",
-  "private": false,
+  "name": "@ztolley/vite-react-ts",
   "version": "0.1.0",
+  "description": "A starter template for Vite + React + TypeScript",
+  "private": false,
   "type": "module",
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "starter",
+    "vitest",
+    "cypress"
+  ],
+  "author": "Zac Tolley <zac@thetolleys.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ztolley/vite-react-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ztolley/vite-react-ts/issues"
+  },
+  "homepage": "https://github.com/ztolley/vite-react-ts#readme",
   "scripts": {
     "build": "tsc && vite build",
     "coverage": "vitest run --coverage",
