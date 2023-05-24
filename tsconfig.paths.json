@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@Assets": ["./assets"],
+      "@Assets/*": ["./assets/*"],
+      "@Common": ["./common"],
+      "@Common/*": ["./common/*"],
+      "@Components": ["./components"],
+      "@Components/*": ["./components/*"],
+      "@Protobuf/*": ["./protobuf/*"],
+      "@Providers": ["./providers"],
+      "@Pages": ["./pages"],
+      "@Sections": ["./sections"],
+      "@Sections/*": ["./sections/*"]
+    }
+  }
+}

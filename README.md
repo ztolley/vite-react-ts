@@ -1,0 +1,58 @@
+# Template for Vite/React/Typescript
+
+This repository acts as a template to bootstrap a new React project using Vite and Typescript with an opinionated folder structure and some useful libraries.
+
+## Features
+
+- [React JS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Vitest](https://vitest.dev/)
+- [Cypress](https://www.cypress.io/)
+- [Editor config](https://editorconfig.org/)
+- Import aliases
+- Opinionated folder structure
+- [Emotion CSS Styling](https://emotion.sh/docs/styled)
+- [Mui](https://mui.com/)
+- [React Router](https://reactrouter.com/)
+- [Docker](https://www.docker.com/)
+
+## Getting Started
+
+```
+npx degit ztolley/vite-ts#main my-project
+```
+
+## Folder Structure
+
+| Folder     | Alias       | Description                  |
+| ---------- | ----------- | ---------------------------- |
+| common     | @Common     | All utilities                |
+| components | @Components | Generic re-usable components |
+| pages      | @Pages      | Pages and screens            |
+| providers  | @Providers  | Providers                    |
+| sections   | @Sections   | Sections                     |
+
+Important files
+
+- `vite.config.ts` - Vite configuration: build related settings
+- `tsconfig.json` - Typescript configuration
+- `tsconfig.paths.json` - Typescript path aliases
+- `src/routes.tsx` - React Router configuration
+- `index.html` - HTML template
+
+## Navigation
+
+The template application has been configured to instruct any MUI based components to use React Router for navigation.
+
+## Docker
+
+The project provides a Dockerfile to build a docker image. The Dockerfile builds the project and copies it into a fresh NGINX based image configure to run as a non-root user.
+
+To build the docker image run the following command:
+
+```
+docker build -t image-name .
+```
