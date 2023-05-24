@@ -12,6 +12,7 @@ const LinkBehavior = React.forwardRef<
 >((props, ref) => {
   const { href, ...other } = props
   // Map href (Material UI) -> to (react-router)
+  // eslint-disable-next-line react/jsx-props-no-spreading
   return <RouterLink ref={ref} to={href} {...other} />
 })
 

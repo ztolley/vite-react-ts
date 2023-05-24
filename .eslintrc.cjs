@@ -1,23 +1,24 @@
+const path = require('path')
+
 module.exports = {
   env: {
     browser: true,
     es6: true,
     jest: true,
     node: true,
-    cypress: true,
   },
   extends: [
     'airbnb',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'plugin:jest/recommended',
+    'plugin:vitest/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'prettier', 'jest'],
+  plugins: ['@typescript-eslint', 'prettier', 'vitest'],
   rules: {
     'import/extensions': [
       'error',
@@ -52,4 +53,17 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      parserOptions: {
+        project: ['./tsconfig.json'],
+        tsconfigRootDir: path.join(__dirname, 'cypress'),
+      },
+      files: ['cypress/**/*.ts', 'cypress/**/*.js'],
+      plugins: ['cypress'],
+      env: {
+        'cypress/globals': true,
+      },
+    },
+  ],
 }
