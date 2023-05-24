@@ -43,6 +43,18 @@ Important files
 - `src/routes.tsx` - React Router configuration
 - `index.html` - HTML template
 
+## Scripts
+
+| Script        | Description                            |
+| ------------- | -------------------------------------- |
+| `build`       | Build for production                   |
+| `coverage`    | Run tests and generate coverage report |
+| `dev`         | Start development server               |
+| `lint`        | Run ESLint                             |
+| `lint:staged` | Run ESLint on staged files             |
+| `preview`     | Preview production build               |
+| `test`        | Run tests                              |
+
 ## Navigation
 
 The template application has been configured to instruct any MUI based components to use React Router for navigation.

@@ -1,3 +1,3 @@
-export * from './DetailPage'
-export * from './ErrorPage'
-export * from './HomePage'
+export * from './Detail/DetailPage'
+export * from './Error/ErrorPage'
+export * from './Home/HomePage'

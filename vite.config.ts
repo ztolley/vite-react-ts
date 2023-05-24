@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
@@ -35,5 +37,11 @@ export default defineConfig({
         replacement: resolve(__dirname, 'src/sections'),
       },
     ],
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.ts',
+    css: true,
   },
 })
