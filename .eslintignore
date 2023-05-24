@@ -2,4 +2,3 @@
 .prettierrc.js
 cypress.config.ts
 vite.config.ts
-**/protobuf/*
