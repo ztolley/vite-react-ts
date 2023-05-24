@@ -45,7 +45,7 @@ Important files
 - `vite.config.ts` - Vite configuration: build related settings
 - `tsconfig.json` - Typescript configuration
 - `tsconfig.paths.json` - Typescript path aliases
-- `src/routes.tsx` - React Router configuration
+- `src/app.tsx` - Base file for application and routes
 - `index.html` - HTML template
 
 ## Scripts

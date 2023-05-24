@@ -1,6 +1,6 @@
 {
   "name": "@ztolley/vite-react-ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A starter template for Vite + React + TypeScript",
   "private": false,
   "type": "module",
