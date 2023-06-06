@@ -67,7 +67,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
     "typescript": "^5.0.2",
-    "vite": "^4.3.2",
+    "vite": "^4.3.9",
     "vitest": "^0.31.1"
   },
   "lint-staged": {
