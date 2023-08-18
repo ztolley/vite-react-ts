@@ -12,7 +12,9 @@
       "@Providers": ["./providers"],
       "@Pages": ["./pages"],
       "@Sections": ["./sections"],
-      "@Sections/*": ["./sections/*"]
+      "@Sections/*": ["./sections/*"],
+      "@Styles": ["./styles"],
+      "@Styles/*": ["./styles/*"]
     }
   }
 }

@@ -1,2 +1,3 @@
-export * from './CenteredWrapper'
-export * from './Logo'
+export * from './Button/Button'
+export * from './CenteredWrapper/CenteredWrapper'
+

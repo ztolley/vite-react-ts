@@ -1,0 +1,43 @@
+:root {
+  --color-targetOption: #d30992;
+  --color-targetOption-darker: #a80774;
+  --color-value: #99ff33;
+  --color-value-darker: #80e020;
+  --color-ok: #00703c;
+  --color-ok-darker: #00592f;
+  --color-highlight: #22aaee;
+  --color-highlight-darker: #1a8cc4;
+  --color-attention: #f8c715;
+  --color-attention-darker: #d4a10e;
+  --color-warning: #e51a1a;
+  --color-warning-darker: #c61717;
+  --color-information: #dddddd;
+  --color-information-darker: #c4c4c4;
+
+  --color-secondary: #666666;
+  --color-secondary-dark: #5a5a5a;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-friendly: #3fb26d;
+  --color-friendly-background: #ffffff;
+  --color-neutral: rgb(187, 213, 254);
+  --color-neutral-background: #000000;
+  --color-threat: #ec4138;
+  --color-threat-background: #ffffff;
+  --color-unclassified: rgb(251, 145, 1);
+  --color-unclassified-background: r#000000;
+
+
+  --font-size-xsmall: .95rem;
+  --font-size-small: 1em;
+  --font-size-medium: 1rem;
+  --font-size-large: 1.2rem;
+
+  --label-padding-xsmall: 0.1rem 0.6rem;
+  --label-padding-small:  0.1rem 0.6rem;
+  --label-padding-medium: 0.5rem 1.2rem;
+  --label-padding-large: 0.5rem 1.5rem;
+
+  --input-padding: 1rem;
+}

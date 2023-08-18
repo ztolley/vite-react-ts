@@ -1,6 +1,5 @@
-import { CenteredWrapper } from '@Components'
-import { Button } from '@mui/material'
 import { useParams, useNavigate } from 'react-router-dom'
+import { Button, CenteredWrapper } from '@Components'
 
 export const DetailPage = () => {
   const { id } = useParams<{ id: string }>()
@@ -17,7 +16,7 @@ export const DetailPage = () => {
             navigate(-1)
           }}
           variant="contained"
-          size="small"
+          textSize="small"
         >
           Back
         </Button>

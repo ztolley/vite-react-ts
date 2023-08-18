@@ -1,4 +1,4 @@
 .eslintrc.cjs
-.prettierrc.js
+.prettierrc.cjs
 cypress.config.ts
 vite.config.ts

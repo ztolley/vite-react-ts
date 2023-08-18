@@ -36,15 +36,17 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
+    'no-underscore-dangle': 0,
     'prettier/prettier': 0,
     'react/function-component-definition': 0,
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
+    'react/jsx-props-no-spreading': 0,
     'react/prop-types': 0,
-    'react-hooks/exhaustive-deps': 0,
     'react/react-in-jsx-scope': 0,
+    'react-hooks/exhaustive-deps': 0,
   },
   settings: {
     'import/resolver': {
@@ -64,6 +66,9 @@ module.exports = {
       env: {
         'cypress/globals': true,
       },
+      rules: {
+        'vitest/expect-expect': 0,
+      }
     },
   ],
 }

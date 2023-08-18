@@ -14,10 +14,9 @@ This repository acts as a template to bootstrap a new React project using Vite a
 - [Editor config](https://editorconfig.org/)
 - Import aliases
 - Opinionated folder structure
-- [Emotion CSS Styling](https://emotion.sh/docs/styled)
-- [Mui](https://mui.com/)
 - [React Router](https://reactrouter.com/)
 - [Docker](https://www.docker.com/)
+- CSS Modules
 
 ## Getting Started
 
@@ -32,13 +31,14 @@ npm run dev
 
 ## Folder Structure
 
-| Folder     | Alias       | Description                  |
-| ---------- | ----------- | ---------------------------- |
-| common     | @Common     | All utilities                |
-| components | @Components | Generic re-usable components |
-| pages      | @Pages      | Pages and screens            |
-| providers  | @Providers  | Providers                    |
-| sections   | @Sections   | Sections                     |
+| Folder     | Alias       | Description                     |
+| ---------- | ----------- | ------------------------------- |
+| common     | @Common     | All utilities                   |
+| components | @Components | Generic re-usable components    |
+| pages      | @Pages      | Pages and screens               |
+| providers  | @Providers  | Providers                       |
+| sections   | @Sections   | Sections                        |
+| styles     | @Styles     | Global styles and css variables |
 
 Important files
 
