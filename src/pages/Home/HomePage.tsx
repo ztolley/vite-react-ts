@@ -1,24 +1,24 @@
-import { Button } from '@mui/material'
-
+import { Link } from 'react-router-dom'
 import reactLogo from '@Assets/react.svg'
-import viteLogo from '@Assets/vite.svg'
-import { CenteredWrapper, Logo, LogoSpin } from '@Components'
+import { Button, CenteredWrapper } from '@Components'
+import styles from './styles.module.css'
 
 export const HomePage = () => (
   <CenteredWrapper>
-    <div>
-      <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-        <Logo src={viteLogo} alt="Vite logo" />
-      </a>
-      <a href="https://react.dev" target="_blank" rel="noreferrer">
-        <LogoSpin src={reactLogo} alt="React logo" />
-      </a>
-    </div>
+    <img src={reactLogo} alt="React logo" className={styles.logo} />
+    <h1>Home Page</h1>
     <h1>Vite + React</h1>
-    <p>
-      <Button href="/detail/1" variant="contained">
-        Goto Detail
-      </Button>
-    </p>
+    <ul className={styles.links}>
+      <li>
+        <Link to="/detail/1">
+          <Button variant="contained">Goto Detail</Button>
+        </Link>
+      </li>
+      <li>
+        <Link className={styles.link} to="/components">
+          <Button variant="contained">Components</Button>
+        </Link>
+      </li>
+    </ul>
   </CenteredWrapper>
 )

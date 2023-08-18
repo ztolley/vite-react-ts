@@ -36,6 +36,10 @@ export default defineConfig({
         find: '@Sections',
         replacement: resolve(__dirname, 'src/sections'),
       },
+      {
+        find: '@Styles',
+        replacement: resolve(__dirname, 'src/styles'),
+      },
     ],
   },
   test: {
